@@ -1,0 +1,12 @@
+---
+- src: geerlingguy.firewall
+- src: geerlingguy.security
+- src: geerlingguy.git
+- src: geerlingguy.jenkins
+- src: votum.jenkins
+- src: retr0h.logrotate
+- src: jpnewman.common
+- src: jpnewman.java
+- src: jpnewman.locale-timezone
+- src: jpnewman.nginx
+# - src: jpnewman.jenkins

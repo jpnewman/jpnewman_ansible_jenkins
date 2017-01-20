@@ -1,0 +1,14 @@
+---
+
+# votum.jenkins
+
+# NOTE: username can't be 'admin'
+jenkins_additional_users: []
+jenkins_admin_users:
+  - username: jenkins.admin
+    password: password123  # NOTE: Change Me
+
+jenkins_java_options: "-Djenkins.install.runSetupWizard=false -Dhudson.model.DirectoryBrowserSupport.CSP="
+
+jenkins_plugins:
+  - "scm-sync-configuration"
